@@ -50,7 +50,11 @@ ip_addr_t ip_address = {10, 0, 1, 30};
 ip_mask_t netmask = {255, 255, 225, 0};
 ip_addr_t default_router = {10, 0, 1, 1};
 
+<<<<<<< HEAD
 #ifndef WITH_DEBUG
+=======
+#ifndef DEBUG
+>>>>>>> d31092f1d07ea68da6dce3d969fdd2020cf7e0bb
 bool
 display_status(void)
 {
@@ -139,7 +143,11 @@ main(void)
     tty_init(115200UL);
 
     // Initialise timers
+<<<<<<< HEAD
 #ifndef WITH_DEBUG
+=======
+#ifndef DEBUG
+>>>>>>> d31092f1d07ea68da6dce3d969fdd2020cf7e0bb
     timer_set(display_status, 1);
 #endif
 
