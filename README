@@ -1,0 +1,15 @@
+The NetAVR project was founded in 2010 by Roy van Dam, David
+Vaessen and Ramon Kleiss as part of the course data communication
+at the HAN University of Applied Sciences.
+
+The project's goal is to create an `educational' tcp/ip stack for
+small embedded devices like the AVR. 
+
+The current condition of the project still remains in an experimental
+stage where ARP, ICMP and UDP have been implemented and tested. TCP,
+DHCP, Packet queueing and network sockets are in preliminary state.
+For more detailed technical information on the NetAVR project, please
+refer to the supplied documentation or contact one of the maintainers.
+
+This project has been developed under the standard two clause BSD
+license. Please turn to the LICENSE file for detailed information.
