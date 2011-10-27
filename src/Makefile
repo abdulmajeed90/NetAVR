@@ -106,11 +106,11 @@ $(TARGET).elf: $(OBJECTS)
 clean:
 	rm -rf $(OBJECTS) $(TARGET).*
 
-# Install: Writes rom to the targed device
+# Install: Write rom to the target device
 install:
 	$(TARGET_LOADER) -v -p $(TARGET_MCU_TAG) -c $(TARGET_BOARD) -P $(TARGET_PORT) -e -U flash:w:$(TARGET).rom
 
-# Terminal: Open a connection to the STK500 terminal.
+# Terminal: Open a connection with the STK500 terminal.
 terminal:
 	$(TARGET_LOADER) -v -p $(TARGET_MCU_TAG) -c $(TARGET_BOARD) -P $(TARGET_PORT) -t $(FLAGS)
 
